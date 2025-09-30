@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--Link to css and makes tab not read file name-->
+        <link rel="stylesheet" href="assignment1.css">
+        <title>OASIS</title>
+    </head>
+    <header>
+        <!--Div img and website name and then div nav for layout change using flex-->
+        <div>
+            <img src="Images/bear_icon.png"/>
+            <p>Paul's Website</p>
+        </div>
+        <div>
+            <nav>
+                <!--Page Navigation. Only used ids. for this unless otherwise stated-->
+                <a href=#Intro>Intro</a>
+                <a href=#Pro>Pros</a>
+                <a href=#Con>Cons</a>
+                <a href=#myJob>Duties</a>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <!--Start with intro as Section and all secondary text as article-->
+        <section id="Intro">
+            <h1>OASIS</h1>
+            <p>The Official Association for Students in Information Science aims to build a network of IS students and Professionals, allowing them to make long lasting connections</p>
+        </section>
+        <article id="Pro">
+            <h2>Pros</h2>
+            <!--Div list used to group secondary text for layout using flex-->
+            <div class="list">
+                <p>Professional Development in a casual manner</p>
+                <p>Connection among those in the same major</p>
+                <p>Mentorship/mentee opportunities</p>
+            </div>
+        </article>
+        <article id="Con">
+            <h2>Cons</h2>
+            <div class="list">
+                <p>I'm on the board and snacks come out of my pocket</p>
+                <p>It's not as popular in terms of social events as compared to other clubs</p>
+                <p>Things seem to be done last minute</p>
+            </div>
+        </article>
+        <section id="myJob">
+            <h1>Business Manager Duties</h1>
+            <p>I serve as business manager so I have some duties. In no particular order, they are:</p>
+            <ul>
+                <li>Manage Funds</li>
+                <li>Procure Funds</li>
+                <!--I shouldn't have to do the vp's job so that's why it's in red when hovered-->
+                <li>Do the <span class="red">Vice President</span>'s Job</li>
+            </ul>
+        </section>
+    </body>
+    <footer>
+        <nav>
+            <!--Website Navigation-->
+            <a href="/Assignment1pg1.html">Main Page</a>
+            <a href="/Assignment1CrossFit.html">CrossFit</a>
+            <a href="/Assignment1OASIS.html">OASIS</a>
+            <a href="/Assignment1Triathlon">Triathlon</a>
+            <a href="/Assignment1AdaptiveAthletics.html">Adaptive Athletics/Chess</a>
+        </nav>
+    </footer>
+</html>

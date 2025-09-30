@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--link css and make tab not read file name-->
+        <link rel="stylesheet" href="assignment1.css">
+        <title>Triathlon</title>
+    </head>
+    <header>
+        <!--Div img icon and website name and div nav to set up for layout using flex-->
+        <div>
+            <img src="Images/bear_icon.png"/>
+            <p>Paul's Website</p>
+        </div>
+        <div>
+            <nav>
+                <!--Page Nagivation Ids used for only navigation unless otherwise stated-->
+                <a href=#Intro>Intro</a>
+                <a href=#Pro>Pros</a>
+                <a href=#Con>Cons</a>
+                <a href=#XfitvsTri>Compare</a>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <section id="Intro">
+            <!--Intros are section and secondary text is articles-->
+            <h1>Triathlon Club</h1>
+            <p>It's just running, swimming, and cycling. The club provides a space for people to practice and to borrow equipment. They also providee transportation to races.</p>
+        </section>
+        <article id="Pro">
+            <h2>Pros</h2>
+            <!--div list to group secondary text for formatting and style in css-->
+            <div class="list">
+                <p>It's a great way to get more cardio in as <span class="goldhover">CrossFit</span> doesn't do much endurance training</p>
+                <p>It's more specialized than <span class="goldhover">CrossFit</span>, so I feel more progress occurring</p>
+                <p>It's fun</p>
+            </div>
+        </article>
+        <article id="Con">
+            <h2>Cons</h2>
+            <div class="list">
+                <p>It's $15 a semester, unless you wanna race, then it's $75 </p>
+                <p>Cardio Sucks</p>
+                <p>I'm usually left in the dust by faster and more fit people</p>
+            </div>
+        </article>
+        <section id="XfitvsTri">
+            <table>
+                <!--Fun way to compare the 2 sport clubs I'm in. Used Colspan to make the section look more uniform-->
+                <tr>
+                    <th colspan="2">CrossFit vs Triathlon</th>
+                </tr>
+                <tr>
+                    <th>CrossFit</th>
+                    <th>Triathlon</th>
+                </tr>
+                <tr>
+                    <td>Joined Freshman Year</td>
+                    <td>Joined Sophomore Year</td>
+                </tr>
+                <tr>
+                    <td>Overall Fitness</td>
+                    <td>Overall Cardio</td>
+                </tr>
+                <tr>
+                    <td>Structred Classes</td>
+                    <td>Loose Classes</td>
+                </tr>
+            </table>
+        </section>
+    </body>
+    <footer>
+        <nav>
+            <!--Website Navigation-->
+            <a href="/Assignment1pg1.html">Main Page</a>
+            <a href="/Assignment1CrossFit.html">CrossFit</a>
+            <a href="/Assignment1OASIS.html">OASIS</a>
+            <a href="/Assignment1Triathlon">Triathlon</a>
+            <a href="/Assignment1AdaptiveAthletics.html">Adaptive Athletics/Chess</a>
+        </nav>
+    </footer>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <header>
+        <!-- Links to css and js. Also has the tab not read the file name-->
+        <link rel="stylesheet" href="assignment1.css">
+        <script src="assignment1.js" defer></script>
+        <title>Adaptive Athletics/Chess</title>
+    </header>
+    <header>
+        <!--div groups img icon with name of website and another div to group the nav. This sets up the layout in css using flex-->
+        <div>
+            <img src="Images/bear_icon.png"/>
+            <p>Paul's Website</p>
+        </div>
+        <div>
+            <nav>
+                <!--The ids for the page navigation Only used ids for navigation unless otherwise stated-->
+                <a href=#Intro>Intro</a>
+                <a href=#doList>Pros</a>
+                <a href=#Chess>Chess</a>
+                <a href=#IDK>IDK</a>
+            </nav>
+        </div>
+    </header>
+    <body>
+        <!--Always start with intro and have all intros be sections & secondary text be article-->
+        <section id="Intro">
+            <h1>Adaptive Athletics</h1>
+            <p>
+                I founded <span class="bold"><!--Putting emphasis on Adaptive Athletics b/c it's my creation!-->Adaptive Athletics</span> to create a space for people with disabilites that also like sports and fitness. 
+            </p>
+        </section>
+        <!--There's not many pros or cons for the rest of the clubs, so  I just list what I do as the founder-->
+        <article id="doList">
+            <h2>Planning Club Events Process</h2>
+            <!--Div class allows me to group the secondary text for layout using flex-->
+            <div class="list">
+                <p>Find a topic to talk about</p>
+                <p>Research topic for a few hours</p>
+                <p>Make a presentation about said topic</p>
+                <p>Make graphics for marketing</p>
+                <p>Post on socials and GroupMe about Event</p>
+            </div>
+        </article>
+        <!--Chess and Adaptive Athletics did not have enough content to justify a page each-->
+        <section id="Chess">
+            <h1>Chess Club</h1>
+            <p>I'm only in it because my friends play chess. I suck at chess.</p>
+        </section>
+        <article id="IDK">
+            <h2>Honestly Not Much to Talk About</h2>
+            <p>Yeah, IDK what else to put here.</p>
+            <!--bear id is used for js where a dancing bear gif will pop up along with text that says I like bears-->
+            <button id="bear">Bear</button>
+        </article>
+    </body>
+    <footer>
+        <!--Used for website navigation-->
+        <nav>
+            <a href="/Assignment1pg1.html">Main Page</a>
+            <a href="/Assignment1CrossFit.html">CrossFit</a>
+            <a href="/Assignment1OASIS.html">OASIS</a>
+            <a href="/Assignment1Triathlon">Triathlon</a>
+            <a href="/Assignment1AdaptiveAthletics.html">Adaptive Athletics/Chess</a>
+        </nav>
+    </footer>
+</html>

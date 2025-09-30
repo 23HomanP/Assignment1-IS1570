@@ -1,0 +1,139 @@
+*{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    margin:0px;
+}
+/*Every page should have the general same format and style to keep it consistent*/
+/*I used Flex to change the layout of the elements and to center divs*/
+header{
+    background-color: #84d2f6;
+    display:flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+header div{
+    display:flex;
+    margin: 1%;
+    width: 50%;
+}
+header div p{
+    font-size: 120%;
+    margin-left: 1%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+header div img{
+    width: 50px;
+    justify-content: center;
+}
+header div nav{
+    margin: auto 1% auto auto;
+    font-weight: bolder;
+    font-family: monospace;
+    font-size: 120%;
+    text-align: right;
+}
+header div nav a{
+    background-color: #386fa4;
+    border-radius: 15px;
+    color: gold;
+}
+footer{
+    background-color: #84d2f6;
+    display:flex;
+    justify-content: space-around;
+    height: 50px;
+}
+footer nav {
+    font-size: 120%;
+    font-weight: bolder;
+    margin: auto;
+}
+footer nav a{
+    background-color: #386fa4;
+    border-radius: 15px;
+    color:gold;
+}
+
+body{
+    background-color: #133c55;
+}
+section, article{
+    padding:5%
+}
+section{
+    background-color: #386fa4;
+}
+article{
+    background-color: #59a5d8;
+}
+
+div.list{
+    background-color: #133c55;
+    width:75%;
+    margin: auto;
+    border-radius: 20px;
+    padding:10%;
+    ;
+}
+table, th, td{
+    border: white, solid;
+}
+table{
+    margin: auto;
+}
+th,td{
+    text-align: center;
+    font-size:150%;
+}
+h1, h2, p{
+    text-align: center;
+    font-size: 150%;
+}
+li{
+    font-size:150%;
+}
+ol{
+    padding-top: 10%;
+}
+ul{
+    padding: 5%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    background-color: gold;
+    color:white;
+}
+a:active{
+    color:black;
+}
+span.goldhover:hover{
+    color:gold;
+}
+span.Club{
+    font-family: cursive;
+}
+span.bold{
+    font-weight: bold;
+}
+span.red:hover{
+    color:red;
+}
+button#bear{
+    color:Gold;
+    background-color: #133c55;
+    border-radius: 15px;
+    width:20%;
+    height:35px;
+    font-size: 125%;
+}
+button#secret{
+    color:#59a5d8;
+    background-color: #84d2f6;
+    border: #84d2f6;
+}
+p#secret{
+    background-color: #386fa4;
+}

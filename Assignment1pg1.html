@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang =en>
+<head>
+    <!--link css and js. Make tab not read file name-->
+    <link rel="stylesheet" href="assignment1.css">
+    <script src="assignment1.js" defer></script>
+    <title>Paul's Website</title>
+</head>
+<header>
+    <!--Img icon and website name grouped and nav grouped to set up for css layout using flex-->
+    <div>
+        <img src="Images/bear_icon.png"/>
+        <p>Paul's Website</p>
+    </div>
+    <div>
+        <nav>
+            <!--Page navigation. Id's only used for this unless otherwise stated-->
+            <a href=#clubList>Intro</a>
+            <a href=#CrossFit>CrossFit</a>
+            <a href=#OASIS>OASIS</a>
+            <a href=#AdaptiveAthletics>Adaptive Athletics</a>
+            <a href=#Triathlon>Triathlon</a>
+            <a href=#Chess>Chess</a>
+        </nav>
+    </div>
+</header>
+<body>
+    <!--Serves as an Intro so section-->
+    <section id="clubList">
+    <div>
+        <h1>Clubs on Campus I am In</h1>
+        <p>I am in way too many clubs and my time is often spread thin. This is what I think of some of them.</p>
+    </div>
+    <div>
+        <p>Here are the top 5 ranked</p>
+        <ol>
+            <!--Wanted the text to be different, but didn't want to change all li-->
+            <li><span class="Club">CrossFit Club</span></li>
+            <li><span class="Club">OASIS</span></li>
+            <li><span class="Club">Adaptive Athletics Club</span></li>
+            <li><span class="Club">Triathlon Club</span></li>
+            <li><span class="Club">Chess Club</span></li>
+        </ol>
+    </div>
+    </section>
+    <!--Section to group all the articles that talk about 1 club-->
+    <section id="clubsMiniExpo">
+        <article id="CrossFit">
+            <h2>CrossFit</h2>
+            <p>CrossFit was created in 2000 in Santa Cruz, California. It's founders, Greg Glassman and Lauren Jenai, combined gymnastics with weightlifting.</p>
+            <p>The CrossFit Club at Pitt was founded in 2008 and has been providing free fitness classes for all ability levels.</p>
+        </article>
+        <article id="OASIS">
+            <h2>OASIS</h2>
+            <p>OASIS stands for Official Association for Students in Information Science. It was founded in 2020 as a space for IS students.</p>
+            <p>They bring in tech professionals to give talks and network opportunities.</p>
+        </article>
+        <article id="AdaptiveAthletics">
+            <h2>Adaptive Athletics</h2>
+            <p>Adaptive Athletics was created in February 2025 as there did not exist a space for people in sports who are disabled.</p>
+            <p>They provide education to people about different para and adaptive sports as well as doing said para and adaptive sports. </p>
+        </article>
+        <article id="Triathlon">
+            <h2>Triathlon</h2>
+            <p>Triathlons consist of running, swimming, and biking. It's all cardio.</p>
+            <p>Triathlon club provides students a way to participate in Triathlons at a cheaper rate along with group training times.</p>
+        </article>
+        <article id="Chess">
+            <h2>Chess Club</h2>
+            <p>Chess is a complex game of moving and capturing pieces. It has existed for centuries.</p>
+            <p>Chess Club hosts Chess Tournaments and has open Chess games.</p>
+        </article>
+    </section>
+</body>
+<footer>
+    <nav>
+        <!--Website Navigation-->
+        <a href="/Assignment1pg1.html">Main Page</a>
+        <a href="/Assignment1CrossFit.html">CrossFit</a>
+        <a href="/Assignment1OASIS.html">OASIS</a>
+        <a href="/Assignment1Triathlon">Triathlon</a>
+        <a href="/Assignment1AdaptiveAthletics.html">Adaptive Athletics/Chess</a>
+    </nav>
+    <!--A little fun secret that when pressed, it will show 2 organizations I used to be part of.-->
+        <button id="secret">Secret Button</button>
+</footer>
+</html>
