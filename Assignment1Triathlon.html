@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
         <!--link css and make tab not read file name-->
         <link rel="stylesheet" href="assignment1.css">
         <title>Triathlon</title>
     </head>
-    <header>
+    <body>
+        <header>
         <!--Div img icon and website name and div nav to set up for layout using flex-->
         <div>
-            <img src="Images/bear_icon.png"/>
+            <img src="Images/bear_icon.png" alt="Brown Teddy Bear being surprised icon">
             <p>Paul's Website</p>
         </div>
         <div>
             <nav>
                 <!--Page Nagivation Ids used for only navigation unless otherwise stated-->
-                <a href=#Intro>Intro</a>
-                <a href=#Pro>Pros</a>
-                <a href=#Con>Cons</a>
-                <a href=#XfitvsTri>Compare</a>
+                <a href='#Intro'>Intro</a>
+                <a href='#Pro'>Pros</a>
+                <a href='#Con'>Cons</a>
+                <a href='#XfitvsTri'>Compare</a>
             </nav>
         </div>
     </header>
-    <body>
         <section id="Intro">
             <!--Intros are section and secondary text is articles-->
             <h1>Triathlon Club</h1>
@@ -44,7 +45,7 @@
                 <p>I'm usually left in the dust by faster and more fit people</p>
             </div>
         </article>
-        <section id="XfitvsTri">
+        <div id="XfitvsTri">
             <table>
                 <!--Fun way to compare the 2 sport clubs I'm in. Used Colspan to make the section look more uniform-->
                 <tr>
@@ -67,9 +68,8 @@
                     <td>Loose Classes</td>
                 </tr>
             </table>
-        </section>
-    </body>
-    <footer>
+        </div>
+        <footer>
         <nav>
             <!--Website Navigation-->
             <a href="/Assignment1pg1.html">Main Page</a>
@@ -79,4 +79,5 @@
             <a href="/Assignment1AdaptiveAthletics.html">Adaptive Athletics/Chess</a>
         </nav>
     </footer>
+    </body>
 </html>

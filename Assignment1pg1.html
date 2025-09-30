@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang =en>
 <head>
+    <meta charset="UTF-8">
     <!--link css and js. Make tab not read file name-->
     <link rel="stylesheet" href="assignment1.css">
     <script src="assignment1.js" defer></script>
     <title>Paul's Website</title>
 </head>
-<header>
+
+<body>
+    <header>
     <!--Img icon and website name grouped and nav grouped to set up for css layout using flex-->
     <div>
-        <img src="Images/bear_icon.png"/>
+        <img src="Images/bear_icon.png" alt="Brown Teddy Bear being surprised icon">
         <p>Paul's Website</p>
     </div>
     <div>
         <nav>
             <!--Page navigation. Id's only used for this unless otherwise stated-->
-            <a href=#clubList>Intro</a>
-            <a href=#CrossFit>CrossFit</a>
-            <a href=#OASIS>OASIS</a>
-            <a href=#AdaptiveAthletics>Adaptive Athletics</a>
-            <a href=#Triathlon>Triathlon</a>
-            <a href=#Chess>Chess</a>
+            <a href='#clubList'>Intro</a>
+            <a href='#CrossFit'>CrossFit</a>
+            <a href='#OASIS'>OASIS</a>
+            <a href='#AdaptiveAthletics'>Adaptive Athletics</a>
+            <a href='#Triathlon'>Triathlon</a>
+            <a href='#Chess'>Chess</a>
         </nav>
     </div>
 </header>
-<body>
     <!--Serves as an Intro so section-->
     <section id="clubList">
     <div>
@@ -43,8 +45,8 @@
         </ol>
     </div>
     </section>
-    <!--Section to group all the articles that talk about 1 club-->
-    <section id="clubsMiniExpo">
+    <!--Group all the articles that talk about 1 club-->
+    <div id="clubsMiniExpo">
         <article id="CrossFit">
             <h2>CrossFit</h2>
             <p>CrossFit was created in 2000 in Santa Cruz, California. It's founders, Greg Glassman and Lauren Jenai, combined gymnastics with weightlifting.</p>
@@ -70,9 +72,8 @@
             <p>Chess is a complex game of moving and capturing pieces. It has existed for centuries.</p>
             <p>Chess Club hosts Chess Tournaments and has open Chess games.</p>
         </article>
-    </section>
-</body>
-<footer>
+    </div>
+    <footer>
     <nav>
         <!--Website Navigation-->
         <a href="/Assignment1pg1.html">Main Page</a>
@@ -84,4 +85,5 @@
     <!--A little fun secret that when pressed, it will show 2 organizations I used to be part of.-->
         <button id="secret">Secret Button</button>
 </footer>
+</body>
 </html>
